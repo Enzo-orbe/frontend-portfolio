@@ -1,26 +1,37 @@
 .mega-card-portfolio{
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
 
 }
 
 .individual-card{
     background-color: #bdc3c7;
-    margin: 2rem auto;
+    width: 330px;
+    height: 430px;
     border-radius: 6px;
     box-shadow: 20px 20px 24px 0 rgba(5,0,5,1);
-    padding: 1%;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
 }
 
 
 .imagen-proyecto{
-    width: 50%;
+    width: 80%;
+    height: 30%;
     border-radius: 3px;
 }
 
 .descripcion{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: center;
     padding: 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 2rem;
 }
 
 .boton-visitar{
@@ -29,7 +40,7 @@
   text-decoration: none;
   padding: 0.8rem;
   border-radius: 6px;
-  margin-bottom: 2rem;
+
 }
 
 .boton-visitar:hover{
