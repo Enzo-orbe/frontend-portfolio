@@ -15,6 +15,7 @@
 
 .imagen-proyecto{
     width: 80%;
+    border-radius: 3px;
 }
 
 .descripcion{
@@ -28,4 +29,5 @@
   text-decoration: none;
   padding: 0.8rem;
   border-radius: 6px;
+  margin-bottom: 1rem;
 }
