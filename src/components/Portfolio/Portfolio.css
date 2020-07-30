@@ -1,0 +1,31 @@
+.mega-card-portfolio{
+        display: flex;
+        flex-wrap: wrap;
+
+}
+
+.individual-card{
+    background-color: #bdc3c7;
+    margin: 2rem auto;
+    border-radius: 6px;
+    box-shadow: 20px 20px 24px 0 rgba(5,0,5,1);
+    padding: 1%;
+}
+
+
+.imagen-proyecto{
+    width: 80%;
+}
+
+.descripcion{
+    justify-content: center;
+    padding: 1rem;
+}
+
+.boton-visitar{
+    background-color: #020024;
+  color: #ffff;
+  text-decoration: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+}
