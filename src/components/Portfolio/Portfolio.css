@@ -14,7 +14,7 @@
 
 
 .imagen-proyecto{
-    width: 80%;
+    width: 50%;
     border-radius: 3px;
 }
 
@@ -29,5 +29,5 @@
   text-decoration: none;
   padding: 0.8rem;
   border-radius: 6px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
